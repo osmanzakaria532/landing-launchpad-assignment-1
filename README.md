@@ -125,3 +125,7 @@
 - 🌐 **Live Link:**
 
 # Let's Code and Achieve your Dream 🎯
+
+# In one image requirements part
+
+<img width="100%" src="./in-one-img/main-requirements-part.png">
