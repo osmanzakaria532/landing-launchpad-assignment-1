@@ -1,0 +1,100 @@
+/* Google Font -> Inter, Raleway */
+/* File: landing-launchpad-assignment-1/styles/style.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Navbar Area */
+
+header {
+  padding: 50px 150px;
+  background-image: url(../assets/Hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4e47ff;
+}
+
+nav .button button {
+  color: #fff;
+  background-color: #4e47ff;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+nav .button button:hover {
+  background-color: #3c36e6;
+}
+
+.hero-title {
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  color: #252432;
+  padding: 200px 0 36px 0;
+}
+
+.hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-button button {
+  background-color: #4e47ff;
+  border: none;
+  padding: 12px 36px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.hero-button button:hover {
+  background-color: #3c36e6;
+}
