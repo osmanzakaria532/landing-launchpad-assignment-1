@@ -129,3 +129,8 @@
 # In one image requirements part
 
 <img width="100%" src="./in-one-img/main-requirements-part.png">
+
+
+# In One Image challenges part
+
+<img width="100%" src="./in-one-img/challenges-part.png">
