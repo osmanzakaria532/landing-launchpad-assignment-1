@@ -12,6 +12,39 @@ footer {
     font-size: 22px;
     padding: 50px 0 36px 0;
   }
+
+  /* Action */
+
+  .action {
+    padding: 50px 16px;
+  }
+
+  .action-container {
+    flex-direction: column-reverse;
+  }
+
+  .action-right img {
+    width: 100%;
+  }
+
+  .action-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .action-description {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 18px 0 22px 0;
+    text-align: center;
+  }
+
+  .button {
+    padding: 8px 36px;
+    width: 100%;
+    font-size: 14px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1024px) {
@@ -22,5 +55,24 @@ footer {
   .hero-title {
     font-size: 50px;
     padding: 60px 0 36px 0;
+  }
+
+  /* Action Area */
+
+  .action {
+    padding: 50px 40px;
+  }
+
+  .action-right img {
+    width: 100%;
+  }
+
+  .action-title {
+    font-size: 34px;
+  }
+
+  .action-description {
+    font-size: 20px;
+    line-height: 24px;
   }
 }
