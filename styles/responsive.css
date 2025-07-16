@@ -45,6 +45,35 @@ footer {
     width: 100%;
     font-size: 14px;
   }
+
+  /* product User */
+
+  .productive-user {
+    padding: 0 16px 0;
+  }
+
+  .productive-user-container {
+    padding: 25px 16px;
+  }
+
+  .productive-user-title {
+    font-size: 26px;
+  }
+
+  .productive-user-items {
+    margin-top: 28px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .productive-user-item p {
+    font-size: 24px;
+    font-size: 46px;
+  }
+
+  .productive-user-item span {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 1024px) {
@@ -75,4 +104,18 @@ footer {
     font-size: 20px;
     line-height: 24px;
   }
+
+  /* Productive User */
+
+  .productive-user {
+    padding: 0 40px 0;
+  }
+
+  .productive-user-item p {
+    font-size: 60px;
+  }
+
+  .productive-user-container {
+    padding: 50px 40px;
+}
 }
